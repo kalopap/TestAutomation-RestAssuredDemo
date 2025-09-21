@@ -1,0 +1,30 @@
+[
+  {
+    "appId": "APP001",
+    "token": "token_public_123",
+    "name": "NewsReaderApp",
+    "type": "public",
+    "allowedContentTypes": ["HowTo", "FAQs", "Manuals"]
+  },
+  {
+    "appId": "APP002",
+    "token": "token_public_456",
+    "name": "SupportPortal",
+    "type": "public",
+    "allowedContentTypes": ["TroubleShooting", "HowTo"]
+  },
+  {
+    "appId": "APP003",
+    "token": "token_internal_789",
+    "name": "InternalCMS",
+    "type": "internal",
+    "allowedContentTypes": ["HowTo", "TroubleShooting", "FAQs", "Manuals", "InternalOnly"]
+  },
+  {
+    "appId": "APP004",
+    "token": "token_internal_999",
+    "name": "AnalyticsDashboard",
+    "type": "internal",
+    "allowedContentTypes": ["InternalOnly", "Manuals", "FAQs"]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "articles": [
+    {
+      "id": "MA234556",
+      "locale": "en_US",
+      "title": "Manual for Accessibility",
+      "details": {
+        "description": "Keyboard and Screen Reader support",
+        "lastModifiedBy": "King Kong",
+        "lastModifiedDate": "2024-09-19T11:25:32+05:30",
+        "createdBy": "King Kong",
+        "createdDate": "2023-07-30T11:25:32+05:30",
+        "contentType": "Manuals",
+        "active": true,
+        "tags": ["accessibility", "manual", "usability"],
+        "ratings": {
+          "avgRating": 4.6,
+          "totalVotes": 128
+        },
+        "views": 1025,
+        "relatedArticles": ["FAQ1001", "HT2002"]
+      }
+    },
+    {
+      "id": "HT2002",
+      "locale": "en_GB",
+      "title": "How to Reset Password",
+      "details": {
+        "description": "Step by step guide for resetting password",
+        "lastModifiedBy": "Jane Doe",
+        "lastModifiedDate": "2024-07-12T14:10:45+05:30",
+        "createdBy": "John Smith",
+        "createdDate": "2023-11-20T09:05:12+05:30",
+        "contentType": "HowTo",
+        "active": true,
+        "tags": ["security", "login", "password"],
+        "ratings": {
+          "avgRating": 3.9,
+          "totalVotes": 256
+        },
+        "views": 4320,
+        "relatedArticles": ["MA234556", "FAQ1001"]
+      }
+    },
+    {
+      "id": "FAQ1001",
+      "locale": "en_US",
+      "title": "FAQ - Account Setup",
+      "details": {
+        "description": "Common questions on creating accounts",
+        "lastModifiedBy": "Admin",
+        "lastModifiedDate": "2024-08-22T16:40:12+05:30",
+        "createdBy": "Support Team",
+        "createdDate": "2022-03-01T12:00:00+05:30",
+        "contentType": "FAQ",
+        "active": false,
+        "tags": ["faq", "accounts"],
+        "ratings": {
+          "avgRating": 4.2,
+          "totalVotes": 89
+        },
+        "views": 890,
+        "relatedArticles": []
+      }
+    }
+  ]
+}
