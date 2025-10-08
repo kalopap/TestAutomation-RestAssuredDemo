@@ -72,6 +72,18 @@ public class ArticleClient extends BaseClient {
         return response;
     }
 
+    public static Response getAllArticlesWithAuth(String token){
+        Response response =
+                given()
+                        .contentType(ContentType.JSON)
+                        .accept(ContentType.JSON)
+                        .header("Authorization","Bearer"+token)
+
+                .when()
+                        .get(BaseClient.BASE_URL+ARTICLES_ENDPOINT);
+        return response;
+
+    }
     public static Response deleteArticle(String articleId){
         Response response =
                 given()

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Article Tests Automation Suite" >
+    <test name="Sanity">
+        <classes>
+            <class name="tests.ArticleTests" />
+        </classes>
+
+    </test>
+</suite>
